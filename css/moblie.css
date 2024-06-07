@@ -1,0 +1,121 @@
+@media screen and (min-width:300px) and (max-width:900px) {
+
+    .conteudo {
+        display: grid;
+        justify-content: space-evenly;
+        height: 400px;
+        background-color: var(--branco-fraco);
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .texto-principal{
+        width: 90%;
+        margin: .5em auto;
+        height: 100px;
+        padding: 1em;
+        font-size: 17px;
+        animation: aparecer 3s both;
+        transition: all 2s;
+    }
+
+    .img-logo{
+        width: 70vw;
+        margin: 0 auto;
+        max-width: 266px;
+        border: 2px solid var(--preto);
+        border-radius: 1em;
+    }
+
+    .link-principal{
+        width: 60%;
+        padding:.5em 0 0 0;
+        margin: 1em auto;
+        max-width: 240px;
+    }
+    .desaparecer{
+        display: none;
+    }
+
+    header{
+        height: 100px;
+    }
+    .nav-header{
+        position: absolute;
+        top: 60px;
+        left: 90px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .lista-links{
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    .lista-links li{
+        margin: .1em;
+        width: 15%;
+    }
+
+    .titulo-header{
+        margin: .2em;
+        width: 90vw;
+        text-align: center;
+    }
+
+    .links {
+        margin: .2em;
+        padding: .2em;
+    }
+
+    .caixa-titulo{
+        width: 90vw;
+    }
+
+    .caixa-titulo-preta{
+        width: 90%;
+    }
+
+    .conteudo-imagem-esquerdo{
+        display: grid;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .conteudo-imagem-esquerdo img {
+        width: 80%;
+    }
+
+    .conteudo-imagem-direito img{
+        width: 80%;
+    }
+
+    .conteudo-imagem-direito{
+        display: grid;
+        text-align: center;
+    }
+
+    .texto{
+        font-size: 17px;
+    }
+
+    .lista-de-precos{
+        display: grid;
+    }
+    .caixa{
+        width: 85%;
+    }
+
+    .enviar{
+        width: 50%;
+        max-width: 180px;
+    }
+    .input-form{
+        width: 80%;
+    }
+
+
+
+}

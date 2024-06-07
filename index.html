@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/moblie.css">
+    <title>Barbearia</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="font titulo-header">Barbearia</h1>
+        <nav class="nav-header">
+            <ul class="lista-links">
+                <li><a href="#creditos" class="links font">Creditos</a></li>
+                <li><a href="#sobre" class="links font">Sobre</a></li>
+                <li><a href="#precos" class="links font">Cortes</a></li>
+                <li><a href="#agendar" class="links font">Agendamento</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="bloco branco">
+            <div id="texto-principal-1" class="conteudo" id="inicio">
+                <h1 class="font-bold texto-principal ">"Aqui é barba, cabelo e bigode! Venha dar aquele tapa no
+                    visual.Estamos abertos o dia todo prontos para te dar o melhor atendimento."</h1>
+                <img src="img/conteudo1.jpg" class="img-logo">
+            </div>
+            <div id="texto-principal-2" class="desaparecer conteudo">
+                <h1 class="font-bold texto-principal">"Está precisando dar aquele trato completo no visual? Aqui você
+                    faz barba, cabelo, bigode ainda bate aquela resenha com a galera. Consulte nossos horários de
+                    atendimento e marque uma hora com a gente."</h1>
+                <img src="img/conteudo2.jpeg" class="img-logo">
+
+            </div>
+
+            <div id="texto-principal-3" class="desaparecer conteudo">
+                <h1 id="texto-principal-3" class="font-bold texto-principal">"Quem quer ser bem atendido e voltar para
+                    casa mais bonito vem na barbearia! Aqui a gente é amigo do cliente e dá a ele o que há de melhor.
+                    Confira os nossos pacotes especiais de barba e cabelo e na compra de serviços ainda ganhe de brinde
+                    !"</h1>
+                <img src="img/logo.jpg" class="img-logo">
+            </div>
+            <a class="link-principal" href="#agendar">Agende seu horario!</a>
+        </section>
+        <section class="cinza">
+            <div class="caixa-titulo">
+                <h2 class="titulo-branco" id="sobre">Sobre a Barbearia</h2>
+            </div>
+            <div class="conteudo-imagem-esquerdo">
+                <img src="img/espaco.jpg" id="img">
+                <p class="font texto texto-branco" id="texto1">Area moderna e memoravel, com equipamentos de melhores
+                    qualidades do mercado, para oferecer o melhor para você!</p>
+            </div>
+            <div class="conteudo-imagem-direito">
+                <p class="font texto-branco texto"id="texto2">Em nossa Barbearia temos uma area de diversão para você aguardar a
+                    sua vez de forma mais divertida e descontraida.</p>
+                <img src="img/jogos.jpg" alt="" id="img-direito">
+
+            </div>
+            <div class="conteudo-imagem-esquerdo">
+                <img src="img/cortes.jpg" alt="" id="img-2" >
+                <p class="font texto texto-branco" id="texto3"> Uma lista de varios cortes que os nossos profissionais consegue
+                    fazer para te deixar na moda.
+                    Estamos localizado: a Rua 0 numero 123, <br>
+                    Bairo: qualquer<br>
+                    Cidade : Machado - MG<br>
+                </p>
+            </div>
+        </section>
+
+        <section class="cinza-claro">
+            <div class="caixa-titulo">
+                <h2 class="titulo-branco" id='precos'>Preços</h2>
+            </div>
+            <ul class="lista-de-precos">
+                <li class="caixa box-vermelho" id="cabelo">
+                    <h1 class="titulo">Corte no Cabelo</h1>
+                    <img src="img/cabelo.jpg" alt="">
+                    <h2 class="titulo">Valor:R$ 30.00</h2>
+                    <a href="#agendar" class="link-corte">Agendar</a>
+                </li>
+                <li class="caixa box-azul" id="barba">
+                    <h1 class="titulo">Corte na Barba</h1>
+                    <img src="img/barba.jpg" alt="">
+                    <h2 class="titulo">Valor:R$ 10.00</h2>
+                    <a href="#agendar" class="link-corte">Agendar</a>
+                </li>
+                <li class="caixa box-azul-vermelho" id="combo">
+                    <h1 class="titulo">Combo Corte no cabelo+Barba</h1>
+                    <img src="img/cabelo+barba.jpg" alt="">
+                    <h2 class="titulo">Valor:R$ 37.00</h2>
+                    <a href="#agendar" class="link-corte">Agendar</a>
+                </li>
+
+
+            </ul>
+        </section>
+        <section class="bloco branco" id="agendar">
+            <div class="caixa-titulo-preta">
+                <h2 class="titulo-preto" id="titulo-agendar">Agendamento</h2>
+            </div>
+            <label for="nome" class="label-form" id="label1">Seu Nome:</label>
+
+            <input id="nome" class="input-form border-vermelho box-vermelho">
+
+            <label for="numero" class="label-form" id="label2">Seu Numero:</label>
+
+            <input id="numero" type="number" class="input-form border-azul box-azul">
+
+            <label class="label-form"id="label3">Informe uma data para agendar</label>
+
+            <input type="date" id="data" class="input-form border-vermelho box-vermelho">
+
+            <label class="label-form" id="label4">Informe a hora para agendar</label>
+
+            <input type="time" id="tempo" class="input-form border-azul box-azul">
+            <input type="submit" value="Agendar Horario" class="enviar">
+        </section>
+    </main>
+    <footer>
+        <h3 class="font-bold" id="creditos">Creditos a imagens e textos</h3>
+        <ul class="footer-links">
+            <li><a href="https://pt.vecteezy.com/vetor-gratis/logo-barbearia" class="links">Logo Barbearia Vetores por
+                    Vecteezy</a></li>
+            <li><a href="https://br.pinterest.com/pin/435582595208258928/" class="links">Imagem da sala de jogos</a>
+            </li>
+            <li><a href="https://graces.com.br/blog/gestao/o-que-nao-pode-faltar-na-sua-barbearia-equipamentos/"
+                    class="links">Imagem do espaco da barbearia.</a></li>
+            <li><a href="https://cursos.alura.com.br/course/html5-css3-primeiros-passos" class="links">Algumas imagens
+                    do curso de programação.</a></li>
+            <li><a href="https://br.pinterest.com/pin/762304674422820682/" class="links">imagem da barba</a></li>
+            <li><a href="https://www.facebook.com/senhorbarbacosmeticos/photos/a.172295346623910/1457391744780924/?type=3"
+                    class="links">imagem do antes e depois.</a></li>
+            <li><a href="https://montarumnegocio.com.br/texto-para-propaganda-de-barbearia/" class="links">Textos
+                    principais</a></li>
+        </ul>
+
+    </footer>
+</body>
+<script src="js/main.js"></script>
+
+</html>
